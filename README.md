@@ -22,3 +22,8 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Resources
+YTS API: https://yts.lt/api#list_movies
+YTS Proxy: https://github.com/serranoarevalo/yts-proxy
+JSONView Extension: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en
