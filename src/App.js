@@ -57,6 +57,11 @@ class App extends React.Component {
                 // genres={movie.genres.join("/")}
                 summary={movie.summary}
                 poster={movie.medium_cover_image}
+                trailer={movie.yt_trailer_code}
+                runtime={movie.runtime}
+                description_full={movie.description_full}
+                large_image={movie.large_cover_image}
+                url={movie.url}
               />
             ))};
           </div>

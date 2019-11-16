@@ -49,3 +49,28 @@
   margin-right: 10px;
   font-size: 14px;
 }
+
+.fa-youtube-play {
+  color: darkgray;
+  float: right;
+}
+
+.fa-youtube-play:hover {
+  color: darkred;
+}
+
+.movie .movie__more {
+  color: darkgray;
+}
+
+.fa-ellipsis-h {
+  font-weight: bold;
+}
+
+
+.fa-ellipsis-h:hover,
+.movie .movie__more:hover {
+  color: rgb(37, 32, 32);
+}
+
+
