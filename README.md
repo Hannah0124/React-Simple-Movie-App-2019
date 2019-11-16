@@ -1,29 +1,45 @@
 # Movie App 2019
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check top rated movies
 
-## Available Scripts
+## Demo video 
+To see a demo video, click the screenshot below.
 
-In the project directory, you can run:
+<a style="float:right" href="http://youtu.be/pzQd1GvnzH0?hd=1" target="_blank">
+  <img alt="Demo Video" src="https://i.ibb.co/HX5r99G/movie-app-2019.png" width="500"/>
+</a>
 
-### `npm start`
+## GitHub Page
+The site is published at https://hannah0124.github.io/movie-app-2019/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to run the program
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Resources
-YTS API: https://yts.lt/api#list_movies
-YTS Proxy: https://github.com/serranoarevalo/yts-proxy
-JSONView Extension: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en
+```
+Browser: http://localhost:3000
+```
+
+### How to deploy 
+
+```
+npm run deploy
+```
+
+## Related Class
+Nomad Coders: https://academy.nomadcoders.co/p/reactjs-fundamentals
+
+## Built With
+* [React](https://reactjs.org/) - a JavaScript library for building user interfaces
+
+## Resources
+* YTS API: https://yts.lt/api#list_movies
+* YTS Proxy: https://github.com/serranoarevalo/yts-proxy
+* JSONView Extension: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en

@@ -11,8 +11,6 @@ function Movie({
   poster,
   trailer,
   runtime,
-  description_full,
-  large_image,
   url
 }) {
   let youtube = `https://www.youtube.com/embed/${trailer}?autoplay=1`;
@@ -24,7 +22,7 @@ function Movie({
         <a target="_blank" href={youtube} rel="noopener noreferrer">
           <i className="fa fa-youtube-play" aria-hidden="true"></i>
         </a>
-        <h5 className="movie__year">{year}</h5>
+  <h5 className="movie__year">{year} | {runtime}min</h5>
         {/* <h5 className="movie__genres">{genres}</h5> */}
         <ul className="movie__genres">
           {genres.map((genre, index) => (
@@ -60,8 +58,6 @@ Movie.propTypes = {
   poster: PropTypes.string.isRequired,
   trailer: PropTypes.string, // added
   runtime: PropTypes.number.isRequired, // added
-  description_full: PropTypes.string.isRequired, // added,
-  large_image: PropTypes.string.isRequired, // added,
   url: PropTypes.string.isRequired // added
 };
 
