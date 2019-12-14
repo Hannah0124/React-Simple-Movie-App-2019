@@ -8,9 +8,6 @@ To see a demo video, click the screenshot below.
   <img alt="Demo Video" src="https://i.ibb.co/HX5r99G/movie-app-2019.png" width="500"/>
 </a>
 
-## GitHub Page
-The site is published at https://hannah0124.github.io/React-Simple-Movie-App-2019/
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
